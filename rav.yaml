@@ -1,0 +1,10 @@
+name: bezalel
+scripts:
+  make: python3 manage.py makemigrations
+  migrate: python3 manage.py migrate
+  startapp: python3 manage.py startapp
+  requirements: python3 -m pip freeze > requirements.txt
+  install: python -m pip install
+  startproject: django-admin startproject
+  createadmin: python3 manage.py createsuperuser
+  startserver: python3 manage.py runserver
