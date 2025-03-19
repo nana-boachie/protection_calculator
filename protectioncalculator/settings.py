@@ -42,7 +42,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     ##
     # LOCAL APPS ##
-    'calculations'
+    'relay',
+    'substation_equipment',
+
     ##
 
 

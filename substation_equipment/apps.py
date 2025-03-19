@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class CalculationsConfig(AppConfig):
+class SubstationEquipmentConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'calculations'
+    name = 'substation_equipment'
